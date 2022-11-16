@@ -1,0 +1,13 @@
+<p>basicform works!</p><br>
+<form #basicForm="ngForm" (ngSubmit)="getdata(basicForm.value)">
+    <label for="fname">First name:</label><br>
+    <input type="text" ngModel name="fname"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" ngModel name="lname"><br><br>
+    <button>submit</button>
+    <br><br><br>
+    <ul>
+        <li>{{UserData.fname}}</li>
+        <li>{{UserData.lname}}</li>
+    </ul>
+  </form>

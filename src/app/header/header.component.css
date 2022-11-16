@@ -1,0 +1,26 @@
+
+img{
+     width: 70px;
+     padding-left: 15px;
+}
+ul{
+    float: right;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+    padding: 10px;
+    
+}
+li a{
+    text-decoration: none;
+     color: #fff;
+     font-size: 16px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     cursor: pointer;
+}
+nav{
+    background-color: darkcyan;
+    padding: 10px;
+}

@@ -1,0 +1,11 @@
+<p>reactiveform works!</p>
+<form [formGroup]="login" (ngSubmit)="getlogin()">
+    <label for="fname">First name:</label><br>
+    <input type="text"  name="username" formControlName ="username">
+    <br>
+    <span *ngIf="usercheck && usercheck.invalid && usercheck.touched"> this field is required</span>
+    <label for="lname">Last name:</label><br>
+    <input type="password"  name="password" formControlName ="password"><br><br>
+    <button [disabled]="login.invalid">submit</button>
+    <br><br><br>
+  </form>
