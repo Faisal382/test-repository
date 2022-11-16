@@ -11,6 +11,7 @@ import {FormsModule} from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { BasicformComponent } from './basicform/basicform.component';
 import { ReactiveformComponent } from './reactiveform/reactiveform.component';
+import { Git1Component } from './git1/git1.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ReactiveformComponent } from './reactiveform/reactiveform.component';
     HeroesComponent,
     HeaderComponent,
     BasicformComponent,
-    ReactiveformComponent
+    ReactiveformComponent,
+    Git1Component
  
   ],
   imports: [
